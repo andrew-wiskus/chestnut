@@ -1,0 +1,9 @@
+#dataForm {
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+#dataTableHead{
+  font-style: italic;
+  font-weight: bold;
+}

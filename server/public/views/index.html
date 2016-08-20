@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Template</title>
+
+    <script type="text/javascript" src="./vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="./vendors/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./scripts/clientapp.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./vendors/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+</head>
+
+<body>
+    <h1>Testing Template</h1>
+    <h4>do less work :)</h4>
+
+
+    <!-- **************- INPUT form for PUT request to testbase db -**************-->
+
+    <div class="dataInputForm">
+        <h1>Owner Registration</h1>
+        <form id="dataForm">
+            <div class="form-group">
+                <label for="item_name">Item:</label>
+                <input type="text" id="item_name" name="item_name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="item_amount">Amount:</label>
+                <input type="text" id="item_amount" name="item_amount" class="form-control" />
+            </div>
+            <button type="submit" id="submitTestData">Submit Data</button>
+        </form>
+    </div>
+
+    <!-- ********************- Div to hold data -********************-->
+    <div id="dataTable">
+
+    </div>
+</body>
+
+</html>
